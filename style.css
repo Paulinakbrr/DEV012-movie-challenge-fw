@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700&family=Inria+Serif:ital,wght@0,300;1,700&family=Julius+Sans+One&display=swap');
+
+* {
+    background-color: #F2E8DE;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inria Serif;
+    text-align: center;
+    font-style: bold;
+    font-size: 42px;
+    color: #404b26;
+    padding: 25px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+label {
+    font-family: Julius Sans One;
+}
+
+#filtrar-por {
+    font-family: Julius Sans One;
+    font-size: 12px;
+    padding: 5px;
+    border-color: #A19178;
+    border-radius: 10px;
+}
+
+#ordenar-por {
+    font-family: Julius Sans One;
+    font-size: 12px;
+    padding: 5px;
+    border-color: #A19178;
+    border-radius: 10px;
+}
+
+.clear-button {
+    padding: 5px;
+    border-radius: 10px;
+    border-color: #A19178;
+    font-family: Julius Sans One;    
+}
+
+#pelis {
+    height: 24em;
+    line-height: 1em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%; 
+    border: 1px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inria Serif;
+    color: #404b26;
+    font-size: 12px;
+}

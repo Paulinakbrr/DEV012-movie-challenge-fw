@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700&family=Inria+Serif:ital,wght@0,300;1,700&family=Julius+Sans+One&display=swap');
+
+* {
+    background-color: #F2E8DE;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: #404b26;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inria Serif';
+  text-align: center;
+  font-size: 42px;
+  color: #404b26;
+  padding: 25px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+label {
+  font-family: 'Julius Sans One';
+}
+
+select {
+  font-family: 'Julius Sans One';
+  font-size: 12px;
+  padding: 5px;
+  border-color: #A19178;
+  border-radius: 10px;
+}
+
+.home-button {
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #A19178;
+  font-family: 'Julius Sans One';    
+}
+
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+li {
+  text-align: center;
+  color: #404b26;
+  font-family: 'Julius sans one';
+  list-style-type: none;
+  font-size: 12px;
+  background-color: #E4C5A6;
+  width: 240px;
+  height: 470px;
+  padding: 8px;
+}
+
+dl { /*titulo*/
+  display: block;
+  margin-block-start: 3px;
+  margin-block-end: 5px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  background-color: #E4C5A6;
+  font-weight: bold;
+}
+
+dt { /*detalle de la tarjeta*/
+  display: block;
+  margin-block-start: 3px;
+  margin-block-end: 5px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  background-color: #E4C5A6;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inria Serif';
+  color: #404b26;
+}
